@@ -1,0 +1,115 @@
+body
+{
+font-family:Verdana, sans-serif;
+background-color: #cfe7e2;
+padding:15px;
+margin: 0;
+}
+
+#outer
+{
+width:800px;
+background-color: white;
+margin:10px auto;
+overflow: hidden;
+padding:10px
+}
+
+
+#header
+{
+text-align:right;
+background-color: #a8eee8;
+padding: 8px;
+margin-bottom:12px;
+}
+
+#header h1
+{
+color:teal;
+margin: 0;
+font-weight:normal;
+}
+
+
+.smalltitle {
+color: teal;
+font-weight:normal;
+margin:5px 0 0 0;
+}
+
+#friends
+{
+float:left;
+border: 4px solid teal;
+width:150px;
+background-color:turquoise;
+padding: 10px;
+}
+
+#friends h3
+{
+color: teal;
+margin-top:0;
+font-weight: normal
+}
+
+#friends ul
+{
+font-size:11px;
+padding-left: 15px;
+}
+
+#friends a
+{
+color:red;
+text-decoration:none;
+font-weight: normal;
+}
+
+#friends a.white
+{
+color:white;
+}
+
+.entry
+{
+width: 590px;
+float:right;
+clear:right;
+border:3px solid #a6e3e0;
+background-color: #dff6f6;
+margin-bottom:12px;
+padding:10px;
+overflow:hidden;
+}
+
+
+.entry h2
+{
+color: teal;
+font-size:20px;
+margin-top: 0;
+font-weight:normal;
+}
+
+.date {
+border-bottom:2px dashed blue;
+font-weight:normal;
+}
+
+.entry p
+{
+color:red;
+font-size: 15px;
+text-align: justify;
+}
+
+.entry img
+{
+width:160px;
+height:130px;
+object-fit: cover;
+float: right;
+margin-left:10px
+}
